@@ -1,0 +1,71 @@
+ 
+:root{
+    --brown: #332424;
+    --dark-brown: #1b1515;
+    --orange: #e4935b;
+    --white: white;
+}
+
+
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+*::selection{
+    background:var(--orange);
+}
+
+.completed{
+    background: var(--dark-brown);
+}
+
+/* -----------Order------------ */
+
+ .completed-orders{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.completed-orders img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.completed-orders .content{
+    text-align: center;
+}
+
+.completed-orders .content p{
+    font-size: 1.5rem;
+    margin: .5rem 0;
+    color: rgb(207, 191, 191);
+}
+
+.completed-orders .content p span{
+    color: var(--white);
+    text-decoration: underline var(--orange);
+}
+
+ .completed-orders .content p:hover{
+    cursor: pointer;
+} 
+
+.completed-container p{
+    font-size: 2rem;
+    color: var(--white);
+    text-align: center;
+} 

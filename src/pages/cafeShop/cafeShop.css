@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Satisfy&display=swap");
+
+:root{
+    --brown: #332424;
+    --dark-brown: #1b1515;
+    --orange: #e4935b;
+    --white: white;
+}
+
+
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+*::selection{
+    background:var(--orange);
+}
+
+body{
+    background: var(--dark-brown);
+}
+
+.Cafe_Shop{
+    margin-top: 14%;
+}
+/* -----------Home------------ */
+
+.Cafe_Shop .home{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Cafe_Shop .home img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.Cafe_Shop .home .content{
+    text-align: center;
+    margin: 0;
+}
+
+.home .content h2{
+    color: var(--white);
+    font-size: 4rem;
+}
+
+.home .content span{
+    color: var(--white);
+    font-size: 1.5rem;
+    margin: .5rem 0;
+}
+
+.home .content .backHome:hover{
+    cursor: pointer;
+}
+
+/* -------salu_cafe------- */
+
+.salu_cafe .container .inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  
+}
+
+.salu_cafe .container .inner img{
+    width: 48%;
+}
+
+.salu_cafe  .container .inner .content{
+    width: 48%;
+    margin-top: 1rem;
+    color: var(--white);
+} 
+
+.salu_cafe  .container .inner .content p{
+    text-align: center;
+    padding: .8rem;
+    font-size: 1.1rem;
+}
+
+.salu_cafe  .container .inner .content h3{
+    text-align: center;
+}

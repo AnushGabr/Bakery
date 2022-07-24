@@ -1,0 +1,145 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #824325;
+    padding: 70px 130px;
+}
+
+.line{
+    display: flex;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    margin-top: 30px;
+}
+
+.footer .containerf .footer-heading{
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    font-weight: 500;
+}
+
+.footer .containerf .item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .containerf .item .title{
+    color: white;
+    font-size: 20px;
+    padding: 18% 0;
+}
+
+.footer .containerf .item .column1 .text p{
+    display: flex;
+    flex-direction: column;
+    padding-top: 18%;
+}
+
+.footer .containerf .item .column1 .text strong{
+   color: rgba(255,255,255,.8);
+}
+
+.footer .containerf .item .column1 .text p i{
+    color: rgba(255,255,255,.8);
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.footer .containerf .item .column2{
+    position: absolute;
+    margin: 0px 35%;
+    padding-top: 15px;
+}
+
+.footer .containerf .item .column2 .product_list .widget-product{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.footer .containerf .item .column2 .text .product-line{
+    display: flex;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    margin-bottom: 10px;
+
+}
+
+.footer .containerf .item .column2 .product_list .product-info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+}
+
+.footer .containerf .item .column2 .product_list .product-info a{
+    color: white;
+    font-weight: 600;
+}
+
+.footer .containerf .item .column2 .product_list .product-info a:hover{
+    color: #fce8df;
+}
+
+.footer .containerf .item .column2 .product_list .product-info .price{
+    color: white;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+
+.footer .containerf .item .column3{
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+.footer .containerf .item .column3 .nav-menu .menu-categories .menu-item{
+    margin-top: 20px;
+}
+
+.footer .containerf .item .column3 .nav-menu .menu-categories .menu-item div{
+    color:rgba(255,255,255,.6);
+    
+}
+
+.footer .containerf .item .column3 .custom-widget .menu{
+    margin-top: 40px;
+}
+
+.footer .containerf .item .column3 .custom-widget .menu li{
+    margin-top: 25px;
+}
+
+.footer .containerf .item .column3 .custom-widget .menu a{
+    color:rgba(255,255,255,.6);
+}
+
+.footer .containerf .item .column3 .custom-widget .menu a:hover{
+    color: white;
+}
+
+.buttom .container-buttom .min-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer .buttom{
+    margin-top: 50px;
+}
+
+.footer .buttom .container-buttom .min-footer .col-left{
+    color: rgba(255,255,255,.6);
+    font-size: 17px;
+}
+
+.footer .buttom .container-buttom .min-footer .col-left a{
+    color: rgba(255,255,255,.6);
+}

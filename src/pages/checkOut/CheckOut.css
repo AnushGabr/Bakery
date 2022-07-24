@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Satisfy&display=swap");
+
+:root{
+    --brown: #332424;
+    --dark-brown: #1b1515;
+    --orange: #e4935b;
+    --white: white;
+}
+
+
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+*::selection{
+    background:var(--orange);
+}
+
+body{
+    background: var(--dark-brown);
+}
+
+/* -----------Home------------ */
+
+.home2{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home2 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.home2 .content{
+    text-align: center;
+}
+
+.home2 .content p{
+    font-size: 1.5rem;
+    margin: .5rem 0;
+    color: rgb(207, 191, 191);
+}
+
+.home2 .content p span{
+    color: var(--white);
+    text-decoration: underline var(--orange);
+}
+
+ .home2 .content p:hover{
+    cursor: pointer;
+   
+} 
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.container form{
+    width: 50%;
+}
+
+.container form h2{
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 1.3rem 0;
+}
+
+
+
+
+
+
+
+
+.container form .field label{
+    font-size: 1rem;
+    color: var(--white);
+    padding: .5rem 0;
+}
+.container form p{
+    color: var(--orange);
+    font-size: 15px;
+}
+
+.container form .field input{
+    width: 100%;
+    border: .1px solid var(--white);
+    font-size: 1rem;
+    padding: .5rem;
+    color: gray;
+    text-transform: none;
+    background: var(--dark-brown);
+    margin: 0.5rem 0;
+}
+
+
+
+
+
+
+
+
+.order-details{
+    width: 48%;
+    color: var(--white);
+}
+
+.order-details h2{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.order-details h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.order-details h3 span{
+    padding-right: 5rem;
+}
+
+.order-details .line{
+    display: flex;
+    border-bottom: 2px solid var(--white);
+    width: 90%;
+    padding: .5rem;
+}
+
+.order-details label .checkbox{
+    margin-top: 2rem;
+}
+
+
+.order-details .line2{
+    display: flex;
+    border-bottom: 1px solid var(--white);
+    width: 90%;
+    padding: .5rem;
+}
+
+.order-details p{
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.order-details p a{
+    font-size: .9rem;
+    color: darkgray;
+}
+
+.order-details p span:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.submit-btn{
+    font-size: 1.2rem;
+    border: 1px solid;
+    padding: .5rem;
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+    background: var(--orange);
+    cursor: pointer;
+}
+
+ .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.1rem;
+}
+
+.order-details .cart-item-name {
+    font-size: 18px;
+}
+
+.order-details .cart-item-price {
+    margin-right: 5rem;
+    font-size: 18px;
+}
+
+.order-details .btn {
+    background-color: var(--orange);
+    color: var(--dark-brown);
+    text-transform: uppercase;
+    margin-top: 30px;
+    width: 150px;
+    padding: 0.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.order-details .btn:hover{
+    background-color: var(--brown);
+    color: var(--orange);
+}

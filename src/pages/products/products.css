@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Satisfy&display=swap");
+
+:root{
+    --brown: #332424;
+    --dark-brown: #1B1515;
+    --orange: #E4935B;
+    --white: white;
+}
+
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+*::selection{
+    background:var(--orange);
+}
+
+body{
+    background: var(--dark-brown);
+}
+
+.Products{
+    display: flex;
+    flex-direction: column;
+}
+
+.Products .allCategories{
+    display: flex;
+    justify-content: center;
+    height: 375px;
+    margin-top: 4%;
+    background-image: url(https://wordpress-632055-2054886.cloudwaysapps.com/wp-content/uploads/2020/11/mrjnabuyn-2-scaled.jpg);
+    object-fit: cover;
+}
+
+.Products .categories{
+    display: flex;
+    justify-content: center;
+}
+
+.Products .categories .heading{
+    color: white;
+    margin: 0 57px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.categories .heading:hover{
+    cursor: pointer;
+    /* text-decoration: underline; */
+    color: var(--orange);
+} 
+
+.Products .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 30px;
+}
+
+.Products .rowIcons{
+    display: flex;
+    /* margin-left: 18%; */
+}
+
+.Products .rowIcons .rowIcon{
+    color: white;
+    display: flex;
+    padding-right: 30px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.Products .rowIcons  .showRow{
+    color: white;
+    padding-right: 40px;
+}
+
+ #Layer_1 rect{
+    fill: #fff;
+}
+
+
+.Products .showCategories{
+    display: none;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Products .showCategories a{
+    color: white;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    font-weight: 900;
+}
+
+
+ 

@@ -1,0 +1,498 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "traditional",
+      "name": "Big Gata",
+      "price": "6000AMD",
+      "descr": "with khoriz",
+      "img": "/images/9376403-scaled.jpg",
+      "catKey": "big-gata"
+    },
+    {
+      "id": 2,
+      "category": "traditional",
+      "name": "Big Phaklava",
+      "price": "1000AMD",
+      "descr": "with honey and nuts",
+      "img": "/images/paxlava1-1.jpg",
+      "catKey": "big-phaklava"
+    },
+    {
+      "id": 3,
+      "category": "traditional",
+      "name": "Eastern Pakhlava",
+      "price": "850AMD",
+      "descr": "with honey and nuts",
+      "img": "/images/1F3740F3-8143-4FAA-8415-78917A4496AE.jpeg",
+      "catKey": "eastern-pakhlava"
+    },
+    {
+      "id": 4,
+      "category": "traditional",
+      "name": "Small Gata",
+      "price": "800AMD",
+      "descr": "with khoriz",
+      "img": "/images/9285194-scaled.jpg",
+      "catKey": "small-gata"
+    },
+    {
+      "id": 5,
+      "category": "traditional",
+      "name": "Medium Gata",
+      "price": "3000AMD",
+      "descr": "with khoriz",
+      "img": "/images/6474053-scaled.jpg",
+      "catKey": "medium-gata"
+    },
+    {
+      "id": 6,
+      "category": "traditional",
+      "name": "Lokhum",
+      "price": "800AMD",
+      "descr": "with jem",
+      "img": "/images/6628142-scaled.jpg",
+      "catKey": "lokhum"
+    },
+    {
+      "id": 7,
+      "category": "traditional",
+      "name": "Walnut",
+      "price": "250AMD",
+      "descr": "with creme",
+      "img": "/images/9414376-scaled.jpg",
+      "catKey": "walnut"
+    },
+    {
+      "id": 8,
+      "category": "traditional",
+      "name": "Yerevan Pakhlava",
+      "price": "750AMD",
+      "descr": "with honey, nuts and cinnamon",
+      "img": "/images/Asset-4-1 (1).png",
+      "catKey": "yerevan-pakhlava"
+    },
+    {
+      "id": 9,
+      "category": "pastry",
+      "name": "Honey cake",
+      "price": "750AMD",
+      "descr": "cream with condensed milk",
+      "img": "/images/meghr.jpg",
+      "catKey": "honey-cake"
+    },
+    {
+      "id": 10,
+      "category": "pastry",
+      "name": "Mikado",
+      "price": "750AMD",
+      "descr": "cream with condensed milk",
+      "img": "/images/4-scaled.jpg",
+      "catKey": "mikado"
+    },
+    {
+      "id": 11,
+      "category": "pastry",
+      "name": "Ideal",
+      "price": "750AMD",
+      "descr": "cream with condensed milk",
+      "img": "/images/8661309-scaled.jpg",
+      "catKey": "ideal"
+    },
+    {
+      "id": 12,
+      "category": "pastry",
+      "name": "Kiev cake",
+      "price": "750AMD",
+      "descr": "cream with condensed milk",
+      "img": "/images/image-25-08-21-03-51.jpeg",
+      "catKey": "kiev-cake"
+    },
+    {
+      "id": 13,
+      "category": "pastry",
+      "name": "Limon",
+      "price": "750AMD",
+      "descr": "cream with condensed milk",
+      "img": "/images/limon.jpg",
+      "catKey": "Limon"
+    },
+    {
+      "id": 14,
+      "category": "pastry",
+      "name": "Mandarin cake",
+      "price": "750AMD",
+      "descr": "with wallnut",
+      "img": "/images/8.jpg",
+      "catKey": "mandarin-cake"
+    },
+    {
+      "id": 15,
+      "category": "pastry",
+      "name": "Prunce",
+      "price": "750AMD",
+      "descr": "with wallnut",
+      "img": "/images/10.jpg",
+      "catKey": "prunce"
+    },
+    {
+      "id": 16,
+      "category": "pastry",
+      "name": "Cigarette pastry",
+      "price": "750AMD",
+      "descr": "with wallnut",
+      "img": "/images/sigaret1.jpg",
+      "catKey": "cigarette-pastry"
+    },
+    {
+      "id": 17,
+      "category": "pastry",
+      "name": "Pavlova",
+      "price": "750AMD",
+      "descr": "with wallnut",
+      "img": "/images/DSC_0109-copy-1-scaled.jpg",
+      "catKey": "Pavlova"
+    },
+    {
+      "id": 18,
+      "category": "cakes",
+      "name": "Banana cake",
+      "price": "7500AMD",
+      "descr": "with fruit",
+      "img": "/images/66A1723.jpg",
+      "catKey": "banana-Cake"
+    },
+    {
+      "id": 19,
+      "category": "cakes",
+      "name": "Prague cake",
+      "price": "7500AMD",
+      "descr": "with wallnut",
+      "img": "/images/3215435.png",
+      "catKey": "prague-cake"
+    },
+    {
+      "id": 20,
+      "category": "cakes",
+      "name": "Caramel cake",
+      "price": "7500AMD",
+      "descr": "with wallnut",
+      "img": "/images/1916236-1.png",
+      "catKey": "caramel-cake"
+    },
+    {
+      "id": 21,
+      "category": "cakes",
+      "name": "Lemon cake",
+      "price": "7500AMD",
+      "descr": "with fruit",
+      "img": "/images/66A1725.jpg",
+      "catKey": "lemon-cake"
+    },
+    {
+      "id": 22,
+      "category": "cakes",
+      "name": "Strawberry cake",
+      "price": "7500AMD",
+      "descr": "with fruit",
+      "img": "/images/elak.jpg",
+      "catKey": "strawberry-cake"
+    },
+    {
+      "id": 23,
+      "category": "cakes",
+      "name": "Pineapple cake",
+      "price": "7500AMD",
+      "descr": "with fruit",
+      "img": "/images/D9DEFFDA-4527-4BF8-AF10-BBE88026B379.jpeg",
+      "catKey": "pineapple-cake"
+    },
+    {
+      "id": 24,
+      "category": "pies",
+      "name": "Cheese pie",
+      "price": "250AMD",
+      "descr": "with cheese",
+      "img": "/images/B02DA06D-F74E-4DAC-B8D2-2861D42FF69D.jpeg",
+      "catKey": "cheese-pie"
+    },
+    {
+      "id": 25,
+      "category": "pies",
+      "name": "Khachapuri",
+      "price": "250AMD",
+      "descr": "with cheese",
+      "img": "/images/13.jpg",
+      "catKey": "khachapuri"
+    },
+    {
+      "id": 26,
+      "category": "pies",
+      "name": "Meat pie",
+      "price": "250AMD",
+      "descr": "with meat",
+      "img": "/images/mis-karkandak.jpg",
+      "catKey": "meat-pie"
+    },
+    {
+      "id": 27,
+      "category": "pies",
+      "name": "Potato pie",
+      "price": "250AMD",
+      "descr": "with potato",
+      "img": "/images/kartofil.jpg",
+      "catKey": "potato-pie"
+    },
+    {
+      "id": 28,
+      "category": "pastry",
+      "name": "Black velvet",
+      "price": "950AMD",
+      "descr": "",
+      "img": "/images/AE09465F-A04F-4535-BEF4-68CF76A590D9.jpeg",
+      "catKey": "black-velvet"
+    },
+    {
+      "id": 29,
+      "category": "cakes",
+      "name": "Tangerine cake",
+      "price": "9000AMD",
+      "descr": "with fruit",
+      "img": "/images/mandarin.png",
+      "catKey": "tangerine-cake"
+    },
+    {
+      "id": 30,
+      "category": "cakes",
+      "name": "Jelly/small/",
+      "price": "5000AMD",
+      "descr": "with fruit",
+      "img": "/images/jelepoqr.jpg",
+      "catKey": "jelly-small"
+    },
+    {
+      "id": 31,
+      "category": "pastry",
+      "name": "Senator",
+      "price": "750AMD",
+      "descr": "",
+      "img": "/images/sena.jpg",
+      "catKey": "sena"
+    },
+    {
+      "id": 32,
+      "category": "croissants",
+      "name": "Nutella croissant",
+      "price": "950AMD",
+      "descr": "",
+      "img": "/images/66A1673-2048x2028.jpg",
+      "catKey": "nutella-croissant"
+    },
+    {
+      "id": 33,
+      "category": "croissants",
+      "name": "Raisins cake",
+      "price": "950AMD",
+      "descr": "",
+      "img": "/images/chamich.jpg",
+      "catKey": "raisins-cake"
+    },
+    {
+      "id": 34,
+      "category": "ice cream",
+      "name": "Donatella sorbet",
+      "price": "2500AMD",
+      "descr": "",
+      "img": "/images/66A1739.jpg",
+      "catKey": "donatella-sorbet"
+    },
+    {
+      "id": 35,
+      "category": "ice cream",
+      "name": "Mixberry sorbet",
+      "price": "2500AMD",
+      "descr": "",
+      "img": "/images/66A1738.jpg",
+      "catKey": "mixberry-sorbet"
+    },
+    {
+      "id": 36,
+      "category": "ice cream",
+      "name": "Lemon sorbet",
+      "price": "2500AMD",
+      "descr": "",
+      "img": "/images/66A1739.jpg",
+      "catKey": "lemon-sorbet"
+    },
+    {
+      "id": 37,
+      "category": "ice cream",
+      "name": "Chocolate",
+      "price": "2500AMD",
+      "descr": "",
+      "img": "/images/118617099_937847733363156_9016505065282629901_o.jpg",
+      "catKey": "chocolate"
+    },
+    {
+      "id": 38,
+      "category": "ice cream",
+      "name": "Arabic ice cream with pistachios",
+      "price": "2500AMD",
+      "descr": "",
+      "img": "/images/66A1742-1761x2048.jpg",
+      "catKey": "Arabic-ice-cream-with-pistachios"
+    },
+    {
+      "id": 39,
+      "category": "pastry",
+      "name": "Brownie",
+      "price": "750AMD",
+      "descr": "",
+      "img": "/images/66A1711.jpg",
+      "catKey": "brownie"
+    },
+    {
+      "id": 40,
+      "category": "pies",
+      "name": "Meat pie",
+      "price": "400AMD",
+      "descr": "",
+      "img": "/images/66A1645.png",
+      "catKey": "meat-pie"
+    },
+    {
+      "id": 41,
+      "category": "breads",
+      "name": "Borodinsky bread",
+      "price": "550AMD",
+      "descr": "",
+      "img": "/images/borodinskii.jpg",
+      "catKey": "borodinsky-bread"
+    },
+    {
+      "id": 42,
+      "category": "pastry",
+      "name": "Tiramisu",
+      "price": "1100AMD",
+      "descr": "",
+      "img": "/images/tiramisu.jpg",
+      "catKey": "tiramisu"
+    },
+    {
+      "id": 43,
+      "category": "pies",
+      "name": "Yeast dough meat pies",
+      "price": "400AMD",
+      "descr": "",
+      "img": "/images/3889F900-AF9D-46B4-A105-964763E9BD68.jpeg",
+      "catKey": "yeast-dough-meat-pies"
+    },
+    {
+      "id": 44,
+      "category": "cakes",
+      "name": "Kiev Cake/small/",
+      "price": "7500AMD",
+      "descr": "",
+      "img": "/images/2861605-scaled.jpg",
+      "catKey": "kiev-Cake/small"
+    },
+    {
+      "id": 45,
+      "category": "breads",
+      "name": "Baguette",
+      "price": "550AMD",
+      "descr": "",
+      "img": "/images/bagett.jpg",
+      "catKey": "baguette"
+    },
+    {
+      "id": 46,
+      "category": "pastry",
+      "name": "Raspberries",
+      "price": "900AMD",
+      "descr": "with fruit",
+      "img": "/images/DSC_0184-copy-scaled.jpg",
+      "catKey": "raspberries"
+    },
+    {
+      "id": 47,
+      "category": "pastry",
+      "name": "Red Velvet",
+      "price": "900AMD",
+      "descr": "",
+      "img": "/images/tavish.jpg",
+      "catKey": "red-velvet"
+    },
+    {
+      "id": 48,
+      "category": "croissants",
+      "name": "Classic croissant",
+      "price": "750AMD",
+      "descr": "",
+      "img": "/images/DSC8267-copy.jpg",
+      "catKey": "classic-croissant"
+    },
+    {
+      "id": 49,
+      "category": "breads",
+      "name": "Bread with seeds",
+      "price": "550AMD",
+      "descr": "",
+      "img": "/images/66A1680-2048x1944.jpg",
+      "catKey": "bread-with-seeds"
+    },
+    {
+      "id": 50,
+      "category": "breads",
+      "name": "Pumpernikel",
+      "price": "550AMD",
+      "descr": "",
+      "img": "/images/borodinski.jpg",
+      "catKey": "pumpernikel"
+    }
+  ],
+  "orders": [
+    {
+      "firstName": "sdf",
+      "lastName": "avagyan",
+      "streetAddress": "teryan",
+      "email": "a@mail.ru",
+      "phone": "11111111",
+      "order": [
+        {
+          "id": 1,
+          "category": "traditional",
+          "name": "Big Gata",
+          "price": "6000AMD",
+          "descr": "with khoriz",
+          "img": "/images/9376403-scaled.jpg",
+          "catKey": "big-gata",
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "firstName": "ani",
+      "lastName": "avagyan",
+      "streetAddress": "california",
+      "email": "d@gmail.com",
+      "phone": "000000",
+      "order": [
+        {
+          "id": 2,
+          "category": "traditional",
+          "name": "Big Phaklava",
+          "price": "1000AMD",
+          "descr": "with honey and nuts",
+          "img": "/images/paxlava1-1.jpg",
+          "catKey": "big-phaklava",
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "users": [],
+  "custom-order": []
+}

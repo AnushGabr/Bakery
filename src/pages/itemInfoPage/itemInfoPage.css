@@ -1,0 +1,84 @@
+.ItemInfoPage{
+    padding: 60px;
+    margin-top: 12%;
+}
+
+.ItemInfoPage .item{
+    display: flex;
+}
+
+.ItemInfoPage .item .img{
+    width: 550px;
+    height: 500px;
+}
+
+.ItemInfoPage .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+.ItemInfoPage .item .content{
+    padding-left: 20%;
+}
+
+ .ItemInfoPage .item h4{
+    color: white;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.ItemInfoPage .item .content .name{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.ItemInfoPage .item .content .price{
+    color: #e4935b;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ItemInfoPage .item .content .descr{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.ItemInfoPage .item .content .category{
+    text-align: center;
+    font-size: 15px;
+}
+
+.ItemInfoPage .item .content button{
+    margin-left: 21%;
+    margin-top: 5%;
+    background-color: #e4935b;
+    color: white;
+    padding: 0.3rem;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.ItemInfoPage .container{
+    color: white;
+    display: flex;
+    position: relative;
+    top: -30px;
+}
+
+.ItemInfoPage .container div{
+    font-size: 17px;
+    padding: 0 3px;
+    cursor: pointer;
+}
+
+.ItemInfoPage .container div:hover{
+    color: #e4935b;
+}
+

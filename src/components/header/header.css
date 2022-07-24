@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none; outline: none;
+    text-decoration: none;
+}
+
+:root{
+    --brown: #332424;
+    --dark-brown: #1b1515;
+    --orange: #e4935b;
+}
+
+.Header {
+    position: fixed;
+    z-index: 1000;
+    top: 0; left: 0; right: 0;
+    background-color: var(--brown);
+    color: white;
+}
+
+ .info{
+    background-color: var(--dark-brown);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ .info span {
+    margin-left: -90px;
+    color:  white;
+}
+
+.info span i {
+    margin-right: 5px;
+}
+
+.info .address a{
+    color: white;
+    font-size: 1rem;
+    padding: 0.1rem 1rem;
+    text-transform: capitalize;
+}
+
+.info .address a:hover{
+    color: var(--orange);
+}
+ .info .icons {
+    margin: 0 50px;
+}
+
+ .icons a  {
+    padding: 6px;
+    color: white;
+}
+
+ .icons i {
+    font-size: 1.2rem;
+}
+
+
+.icons i:hover {
+    color: var(--orange);
+}
+
+
+ .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--brown);
+}
+
+ .section img{
+    width: 130px;
+    height: 90px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+ .section .category {
+    padding: 8px 12px;
+    margin-left: 60px;
+    width: 200px;
+    background-color: var(--orange);
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.category .iconRi{
+    font-size: 52px;
+}
+
+
+ .category .btnText {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: 600;
+}
+
+
+.section  .pages a{
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+
+ .section .pages a:hover {
+    color: var(--orange);
+}
+
+ .section .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .section .search-bar input{
+    padding: 0.3rem;
+    background-color: var(--dark-brown);
+    border-radius: 0.2rem;
+    text-transform: none;
+    color: white;
+}
+
+ .section .search-bar .fas {
+    color: var(--dark-brown);
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+ .section .icons {
+    margin-right: 60px;
+}
+ .section .icons i{
+    cursor: pointer;
+    color: white;
+    margin-right: 5px;
+}
+
+.section .icons i:hover{
+    color: var(--orange);
+}
+
+.cart-length {
+    color: var(--orange);
+    margin: 0.1px;
+    font-size: 15px;
+    font-weight: 700;
+    vertical-align: super;
+   
+}
+
+section {
+    padding: 5rem 0;
+}
+
+section .logo {
+    width: 100px;
+    height: 70px;
+    margin-left: 45px;
+    cursor: pointer;
+}

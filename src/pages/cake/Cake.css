@@ -1,0 +1,305 @@
+
+body{
+    height: 100vh;
+    background-color: #1b1515;
+  }
+  
+  .Cake{
+   width: 100%;
+  }
+  
+  .leftPart .title{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .cakeTitle{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    margin-top: 10rem;
+  }
+  
+  .parts{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10rem;
+  }
+  
+  .parts .leftPart{
+    width: 60%;
+    padding: 0px 100px;
+  }
+  
+  .leftPart .count{
+    color: white;
+    margin-left: 22%;
+  }
+  
+  .leftPart .count h4{
+    margin-left: 23%;
+  }
+  
+  .leftPart .count .chooseMembers{
+    justify-content: center!important;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    max-width: 80%;
+    margin-bottom: 50px;
+  }
+  
+  .leftPart .count .inputMemb{
+    border-width: 1px;
+    background-color: #1b1515;
+    padding: 0 7px;
+    width: 100%;
+    height: 42px;
+    border: 2px solid rgba(129,129,129,.2);
+    font-size: 14px;
+    color: white;
+    padding-right: 30px;
+  }
+  
+  .leftPart .cakeFloors{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .leftPart .cakeFloors .first {
+    width: 27%;
+  }
+  
+  .leftPart .cakeFloors .first img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .leftPart .cakeFloors .second{
+    width: 27%;
+  }
+  
+  .leftPart .cakeFloors .second img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* ............................... */
+  
+  .leftPart .biscuit{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+  }
+  
+  .leftPart .biscuit span{
+    color: white;
+    margin: 15px;
+  }
+  
+  .leftPart .biscuit .chocolate{
+    width: 20%;
+  }
+  
+  .leftPart .biscuit .chocolate img{
+    width: 100%;
+  }
+  
+  .leftPart .biscuit .vanilla{
+    width: 20%;
+  }
+  
+  .leftPart .biscuit .vanilla img{
+    width: 100%;
+  }
+  
+  .leftPart .biscuit .redVelvet{
+    width: 20%;
+  }
+  
+  .leftPart .biscuit .redVelvet img{
+    width: 100%;
+  }
+  
+  /* ................................. */
+  
+  .leftPart .nucleus{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+  }
+  
+  
+  .leftPart .nucleus span{
+    color: white;
+    margin: 15px;
+  }
+  
+  .leftPart .nucleus .walnut{
+    width: 22%;
+  }
+  
+  .leftPart .nucleus .walnut img{
+    width: 100%;
+  }
+  
+  .leftPart .nucleus .fruit{
+    width: 22%;
+  }
+  
+  .leftPart .nucleus .fruit img{
+    width: 100%;
+  }
+  
+  .leftPart .nucleus .meringue{
+    width: 22%;
+  }
+  
+  .leftPart .nucleus .meringue img{
+    width: 100%;
+  }
+  
+  .leftPart .nucleus .withchocolate{
+    width: 22%;
+  }
+  
+  .leftPart .nucleus .withchocolate img{
+    width: 100%;
+  }
+  
+  /* ............................. */
+
+  .leftPart .color1{
+    margin: 60px 0;
+  }
+  
+  .color1{
+    width: 60px;
+    height: 50px;
+    background-color: #b38f77;
+    margin-left: 10%;
+    margin-bottom: 60px;
+  }
+  
+  .color2{
+    width: 60px;
+    height: 50px;
+    background-color: rgb(212, 145, 156);
+    margin-left: 10%;
+  }
+  
+  .color3{
+      width: 60px;
+      height: 50px;
+      background-color: #b993e1;
+      margin-left: 10%;
+  }
+  
+  .color4{
+    width: 60px;
+    height: 50px;
+    background-color: #bcd3d8;
+    margin-left: 10%;
+  }
+  
+  .color5{
+    width: 60px;
+    height: 50px;
+    background-color: #f06767;
+    margin-left: 10%;
+  }
+  
+  .leftPart .data{
+    display: flex;
+    margin: 30px 0;
+  }
+  
+  .leftPart .nameInput{
+    padding-right: 13%;
+    max-width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .leftPart .nameInput .nameData{
+    background-color: #1b1515;
+    border-width: 1px;
+    color: white;
+    padding: 0 15px;
+    max-width: 100%;
+    width: 100%;
+    height: 42px;
+    margin-top: 10px;
+    border: 2px solid rgba(129,129,129,.2);
+  }
+  
+  .leftPart .nameInput p{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .leftPart .phoneInput{
+    max-width: 50%;
+    background-color: #1b1515;
+    border-width: 1px;
+  }
+  
+  .leftPart .phoneInput .phoneData{
+    background-color: #1b1515;
+    border-width: 1px;
+    color: white;
+    padding: 0 15px;
+    max-width: 100%;
+    width: 100%;
+    height: 42px;
+    margin-top: 10px;
+    border: 2px solid rgba(129,129,129,.2);
+  }
+  
+  .leftPart .phoneInput p{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .leftPart .btn{
+    background-color: #e4935b;;
+    color: white;
+    cursor: pointer;
+    padding: 12px 30px;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    font-weight: 600;
+    margin-bottom: 12%; 
+    margin-left: 37%;
+  }
+  
+  .leftPart .btn:hover{
+    background-color: white;
+    color: #e4935b;
+  }
+  
+  /* ...................................... */
+  
+  .parts .rightPart{
+    width: 40%;
+    height: 100vh;
+    padding: 30px 100px;
+    margin-top: 15%;
+  }
+  
+  .parts .rightPart .wedCake {
+    height: 350px;
+    margin-left: 30%;
+  }
+  
+  .parts .rightPart .last{
+    margin-bottom: 10%;
+    margin-right: 35%;
+  }

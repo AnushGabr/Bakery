@@ -1,0 +1,90 @@
+@import "react-slideshow-image/dist/styles.css";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Satisfy&display=swap");
+
+.slide-container {
+    width: 70%;
+    margin: auto; 
+  }
+  
+  h3 {
+    text-align: center; }
+  
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 50px;
+  }
+
+
+  .each-slide .item{
+      display: flex;
+      flex-direction: column;
+      margin-right: 120px;
+  }
+  
+  .each-slide .shop-caffee {
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+  }
+
+  .each-slide a{
+      background-color: #E49458;
+      color: white;
+      width: 100px;
+      text-align: center;
+      padding: 14px;
+      border-radius: 10px;
+      margin-left: 170px;
+      margin-top: 10px;
+  }
+
+
+  .each-slide a:hover{
+      border-radius: 0;
+  }
+
+  .each-slide  img{
+      width: 500px;
+      height: 500px;
+      position: relative;
+  }
+
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:40px; top:0px;}
+    50%  {left:40px; top:40px;}
+    75%  {left:0px; top:40px;}
+    100% {left:0px; top:0px;}
+  }
+
+
+  .each-slide  img:hover{
+    animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: 1000;
+      animation-direction: alternate;   
+  }
+
+  .each-slide .sweet{
+      color: white;
+      font-size: 56px;
+      font-family: satisfy;
+  }
+
+  .react-slideshow-container+ul.indicators .each-slideshow-indicator:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    content: '';
+    background: #fff;
+    text-align: center;
+  }

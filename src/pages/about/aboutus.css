@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Satisfy&display=swap");
+
+:root{
+    --brown: #332424;
+    --dark-brown: #1b1515;
+    --orange: #e4935b;
+    --white: white;
+}
+
+
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+*::selection{
+    background:var(--orange);
+}
+
+body{
+    background: var(--dark-brown);
+}
+
+.aboutUs{
+    height: 20%;
+}
+
+
+.aboutUs  span{
+    color: var(--white);
+    font-size: 1.5rem;
+    margin: .5rem 0;
+}
+
+.aboutUs .backHome{
+    cursor: pointer;
+}
+
+/* -----------Home------------ */
+
+.home{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutUs  .home img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.aboutUs .home .content{
+    text-align: center;
+    margin-top: 28rem;
+}
+
+.aboutUs .home .content h2{
+    color: var(--white);
+    font-size: 4rem;
+}
+
+.aboutUs .home .content p:hover{
+    cursor: pointer;
+}
+
+/* -----------About Us------------ */
+
+.aboutUsInfo{
+    margin-top: 24rem;
+}
+
+.aboutUsInfo .container .inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  
+}
+
+.aboutUsInfo .container .inner img{
+    width: 750px;
+    height: 550px;
+}
+
+.aboutUsInfo  .container .inner .content1{
+    width: 50%;
+    color: var(--white);
+    margin-left: 15px;
+} 
+
+.aboutUsInfo  .container .inner .content1 .text1{
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+
+.aboutUsInfo  .container .inner .content1 .text2{
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+.aboutUsInfo  .container .inner .content1  .cofe_shop{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}

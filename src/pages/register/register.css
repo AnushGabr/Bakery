@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Satisfy&display=swap");
+
+:root{
+    --brown: #332424;
+    --dark-brown: #1b1515;
+    --orange: #e4935b;
+    --white: white;
+}
+
+
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+*::selection{
+    background:var(--orange);
+}
+
+body{
+    background: var(--dark-brown);
+}
+
+/* -----------Account------------ */
+
+.account{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.account img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.account .content{
+    text-align: center;
+}
+
+.account .content .backhome{
+    font-size: 1.5rem;
+    margin: .5rem 0;
+    color: var(--white);
+}
+
+.account .content .backhome span{
+    color: var(--white);
+    text-decoration: underline var(--orange);
+}
+
+.account .content .backhome:hover{
+    cursor: pointer;
+} 
+
+/* -----------Register-------- */
+
+.register {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register form{
+    width: 49%;
+    margin-left: 4rem;
+}
+
+.register form .input h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.register form .input p{
+    font-size: 1rem;
+    color: var(--white);
+    left: 0;
+}
+
+.register form .input p span{
+    color: red;
+}
+
+.register form .input input{
+    width: 70%;
+    border: .1px solid var(--white);
+    font-size: 1rem;
+    padding: .5rem;
+    color: var(--gray);
+    text-transform: none;
+    background: var(--dark-brown);
+    margin: .5rem 0;
+}
+
+.register .login{
+   width: 48%;
+   text-align: center;
+   margin-right: 4rem;
+}
+
+.register .login h3{
+    padding-top: 1rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.register .login p{
+    color: var(--white);
+    text-align: justify;
+    font-size: 1rem;
+    padding-top: 2rem;
+    line-height: 1.5rem;
+}
+
+.register .login .login{
+    padding: .8rem;
+    width: 20%;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+/* ........container............ */
+
+.container2 {
+    width: 30%;
+    text-align: justify;
+    margin-left: 4rem;
+}
+
+.container2 p{
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.container2 p a{
+   font-size: .9rem;
+   color: darkgray;
+   cursor: pointer;
+}
+
+.container2 .btn{
+   width: 100%;
+   background: var(--orange);
+   padding: .5rem;
+   margin-top: 1rem;
+}
