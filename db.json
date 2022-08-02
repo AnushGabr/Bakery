@@ -452,47 +452,10 @@
     }
   ],
   "orders": [
-    {
-      "firstName": "sdf",
-      "lastName": "avagyan",
-      "streetAddress": "teryan",
-      "email": "a@mail.ru",
-      "phone": "11111111",
-      "order": [
-        {
-          "id": 1,
-          "category": "traditional",
-          "name": "Big Gata",
-          "price": "6000AMD",
-          "descr": "with khoriz",
-          "img": "/images/9376403-scaled.jpg",
-          "catKey": "big-gata",
-          "quantity": 1
-        }
-      ],
-      "id": 1
-    },
-    {
-      "firstName": "ani",
-      "lastName": "avagyan",
-      "streetAddress": "california",
-      "email": "d@gmail.com",
-      "phone": "000000",
-      "order": [
-        {
-          "id": 2,
-          "category": "traditional",
-          "name": "Big Phaklava",
-          "price": "1000AMD",
-          "descr": "with honey and nuts",
-          "img": "/images/paxlava1-1.jpg",
-          "catKey": "big-phaklava",
-          "quantity": 1
-        }
-      ],
-      "id": 2
-    }
+    
   ],
   "users": [],
-  "custom-order": []
+  "custom-order": [
+    
+  ]
 }
